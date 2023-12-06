@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  .Calendar__day.-disabled {
+    background: transparent !important;
+    cursor: default !important;
+    background-color: rgb(239 68 68) !important;
+    border-radius: 0 !important;
+    color: black !important;
+  }
+
+  .Calendar__day.-selectedBetween {
+    color: var(--cl-color-primary);
+    border-top: 2px solid black; /* Adjust color and thickness as needed */
+    border-bottom: 2px solid black; 
+
+}
+}
