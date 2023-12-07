@@ -8,8 +8,8 @@ export default function Extra() {
         <main className="flex min-h-screen flex-col">
             <RentalPicker title="Lisävarusteet" >
                 <ExtraCard title="Kuljetus" type="unit"/>
-                <ExtraCard title="Pyyhe" type="count"/>
                 <ExtraCard title="Halkoja" type="count"/>
+                <ExtraCard title="Pyyhe" type="count"/>
             </RentalPicker>
         </main>
     )

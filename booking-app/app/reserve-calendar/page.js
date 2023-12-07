@@ -141,8 +141,8 @@ function ReserveCalendar() {
     ];
 
     return (
-        <main className="flex min-h-screen mt-5 items-center mt-5 flex-col">
-            <h2 class="block m-2 text-center md:text-left antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-inherit">
+        <main className="flex min-h-screen mt-5 items-center flex-col">
+            <h2 className="block m-2 text-center md:text-left antialiased tracking-normal font-sans text-4xl font-semibold leading-[1.3] text-inherit">
                 Valitse vuokrauksen kesto
             </h2>
             <div className="mt-10">
